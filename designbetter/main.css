@@ -1,5 +1,6 @@
 .card {
-  height: 100vh;
+  min-height: 100vh;
+
 }
 
 .blue-bg {
@@ -16,14 +17,20 @@
   right: 40px;
 }
 
-.social>p{
+.social>img{
   border: 2px solid white;
+  height: 50px;
+  width: 50px;
   padding: 5px;
+  margin: 7px;
   border-radius: 50%;
   font-size: 30px;
+  display: flex;
+  direction: column;
+  
 }
 
-.social>p:hover {
+.social>img:hover {
   background: white;
 }
 
@@ -33,12 +40,100 @@ nav {
   color: white;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
+#companyName{
+  margin-left: 20px;
+  font-size: 35px;
+  font-family: 'Lobster', cursive;
+}
 
-nav>.inner {
+.inner {
   width: 500px;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  align-items: center;
+}
+
+#subscribeButton{
+  background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #2f302f;
+  margin-right: 20px;
+  transition: .3s;
+}
+#subscribeButton:hover{
+  color: blue;
+  background-color: white;
+}
+.sideLink{
+  color: white;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 25px;
+  margin-bottom: 35px;
+  font-size: 15px;
+}
+.sideLink:hover{
+  color: darkred;
+}
+.main{
+  /* background: deepskyblue; */
+  height: 500px;
+  padding: 10vw;
+  padding-top: 50px;
+}
+.container{
+  padding-top: 20%;
+  width: auto;
+}
+h1{
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 56px;
+  letter-spacing: 2.5px;
+  margin-bottom: 35px;
+}
+.description{
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.exploreButton{
+  text-align: center;
+ 
+  width: auto;
+  color: white;
+  background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	/* display: block; */
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 16px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #2f302f;
+  margin-right: 20px;
+  transition: .3s;
 }
