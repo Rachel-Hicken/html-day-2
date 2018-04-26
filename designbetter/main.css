@@ -118,15 +118,13 @@ h1{
 }
 .exploreButton{
   text-align: center;
- 
-  width: auto;
+  width: 250px;
   color: white;
   background-color:transparent;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
 	border-radius:28px;
 	border:1px solid #ffffff;
-	/* display: block; */
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
@@ -134,6 +132,10 @@ h1{
 	padding:16px 16px;
 	text-decoration:none;
   text-shadow:0px 1px 0px #2f302f;
-  margin-right: 20px;
+  margin: auto;
   transition: .3s;
+}
+.exploreButton:hover{
+  color: blue;
+  background-color: white;
 }
